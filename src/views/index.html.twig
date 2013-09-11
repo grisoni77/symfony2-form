@@ -1,0 +1,15 @@
+{# empty Twig template #}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>{% trans %}TODO write content{% endtrans %}</div>
+        <form action="index.php" method="post" {{ form_enctype(form) }}>
+            {{ form_widget(form) }}
+            <input type="submit" />
+        </form>
+        </body>
+    </html>
